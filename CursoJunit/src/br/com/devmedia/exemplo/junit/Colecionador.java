@@ -29,5 +29,18 @@ public class Colecionador {
 		colecao.add(carro);
 	}
 	
+	public int obterAnoDoCarroMaisAntigo() {
+		
+		int maisAntigo = Integer.MAX_VALUE;
+		
+		for(Carro carro : colecao) {
+			
+			if(carro.getAnoLancamento() < maisAntigo) {
+				
+				maisAntigo = carro.getAnoLancamento();
+			}
+		}
+		return maisAntigo;
+	}
 	
 }
