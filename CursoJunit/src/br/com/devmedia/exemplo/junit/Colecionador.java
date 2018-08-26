@@ -15,11 +15,18 @@ public class Colecionador {
 	}
 
 	public String getNome() {
+		
 		return nome;
 	}
 
 	public List<Carro> getColecao() {
+		
 		return colecao;
+	}
+	
+	public void adicionarCarro(Carro carro) {
+		
+		colecao.add(carro);
 	}
 	
 	
