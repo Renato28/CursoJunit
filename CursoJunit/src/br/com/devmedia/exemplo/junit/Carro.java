@@ -9,4 +9,18 @@ public class Carro {
 	private int anoLancamento;
 	private LocalDate dataAquisicao;
 	
+	public Carro(String modelo, String marca, int anoLancamento, LocalDate dataAquisicao) {
+		super();
+		
+		if(anoLancamento > dataAquisicao.getYear()) {
+			throw new IllegalArgumentException("Ano de lançamento não pode ser maior que o ano de aquisição do carro.");
+		}
+		this.modelo = modelo;
+		this.marca = marca;
+		this.anoLancamento = anoLancamento;
+		this.dataAquisicao = dataAquisicao;
+	}
+	
+	
+	
 }
