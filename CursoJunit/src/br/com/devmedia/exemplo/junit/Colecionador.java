@@ -13,5 +13,14 @@ public class Colecionador {
 		this.nome = nome;
 		colecao = new ArrayList<Carro>();
 	}
-		
+
+	public String getNome() {
+		return nome;
+	}
+
+	public List<Carro> getColecao() {
+		return colecao;
+	}
+	
+	
 }
