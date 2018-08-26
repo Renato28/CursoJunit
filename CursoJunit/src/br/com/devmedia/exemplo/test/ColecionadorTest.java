@@ -1,4 +1,4 @@
-package br.com.devmedia.exemplo.junit;
+package br.com.devmedia.exemplo.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,6 +6,9 @@ import java.time.LocalDate;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
+
+import br.com.devmedia.exemplo.junit.Carro;
+import br.com.devmedia.exemplo.junit.Colecionador;
 
 
 class ColecionadorTest {

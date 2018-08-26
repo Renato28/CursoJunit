@@ -1,8 +1,10 @@
-package br.com.devmedia.exemplo.junit;
+package br.com.devmedia.exemplo.test;
 
 import java.time.LocalDate;
 
 import org.junit.Test;
+
+import br.com.devmedia.exemplo.junit.Carro;
 
 class CarroTest {
 
